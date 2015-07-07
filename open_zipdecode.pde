@@ -20,7 +20,7 @@ void draw(){
   background(0,0,0);
   for (int i = 0; i < data_set.length-100; i++) {
     fill(255,255,255);
-     rect((int)x.getFloat(i, 4)*10,(int)y.getFloat(i, 5)*10,2,2);
+     rect(x.getFloat(i, 4)*20-850,y.getFloat(i, 5)*15+50,2,2);
   }
 
 }
